@@ -10,5 +10,5 @@ jobs:
         run: | 
           ls -al
           pwd
-          touch /root/sree.txt
-          echo sree is here > /root/sree.txt
+          sudo touch /root/sree.txt
+          sudo echo sree is here > /root/sree.txt
