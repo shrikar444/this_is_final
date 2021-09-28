@@ -1,14 +1,15 @@
 name: Actions workflow
 
 on: [push]
-
+uses: shrikar444/this_is_final/.github/workflows/@master
 
 jobs:
+   
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
     - name: Simple JS Action
-      uses: shrikar444/this_is_final/.github/workflows/@master
+       run: "Hello How are you"
       with : 
         who-to-greet: Sai
     - name: Log Greeting Time
