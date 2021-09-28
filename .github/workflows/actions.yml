@@ -9,6 +9,7 @@ jobs:
     uses: shrikar444/this_is_final/.github/workflows/@1e015d6b887db56840ec7b7f3749ced3e0299ad8
     steps:
     - name: Simple JS Action
+      run: echo "Hello How are you"
       with : 
         who-to-greet: Sai
     - name: Log Greeting Time
