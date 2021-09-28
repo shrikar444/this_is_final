@@ -22,5 +22,5 @@ jobs:
         run: echo "Hi Tower is working"
       - name: dual script
         run: |
-          git -v
+          git --version
           
