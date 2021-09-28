@@ -11,5 +11,5 @@ jobs:
         uses: shrikar444/this_is_final/.github/workflows@master
         with: 
           who-to-greet: Sai
-      - name: Log Greeting Time
-        run: echo  "${{ steps.greet.outputs.time }}"
+     # - name: Log Greeting Time
+      #  run: echo  "${{ steps.greet.outputs.time }}"
