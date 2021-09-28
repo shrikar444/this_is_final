@@ -1,11 +1,11 @@
-name: hello-world
+name: run multiple commands
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: Test connectivity
+        run: echo "Hello Dear!! :)"
       - name: list command
         run: | 
           ls -al
