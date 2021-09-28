@@ -19,8 +19,8 @@ jobs:
           (platform.processor())
         shell: python
       - name: echo a string
-        run: echo "Hi! Tower is working"
-      -name: dual script
+        run: echo "Hi Tower is working"
+      - name: dual script
         run: |
          java -v
          git -v
