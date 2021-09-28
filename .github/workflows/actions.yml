@@ -8,11 +8,10 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
-    - name: Simple JS Action
-      uses: shrikar444/this_is_final/.github/workflows/@master
-      with: 
-        who-to-greet: Sai
-    - name: Log Greeting Time
-      run: echo  "${{
-        steps.greet.outputs.time
-        }}"  
+      - name: Simple JS Action
+        uses: shrikar444/this_is_final/.github/workflows/@master
+        with: 
+          who-to-greet: Sai
+      - name: Log Greeting Time
+        run: echo  "${{
+            steps.greet.outputs.time }}"  
