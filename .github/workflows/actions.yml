@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Simple JS Action
-      uses: shrikar444/hello-github-actions@26e1d5ee12f2485ea625c03d3ca4e731db7d4646
+      uses: shrikar444/this_is_final@f28186bfe4306995e33b2bdc60c9053a7f81d5b9
       with : 
         who-to-greet: Sai
     - name: Log Greeting Time
