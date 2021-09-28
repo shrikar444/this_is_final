@@ -5,8 +5,8 @@ on: [push]
 
 jobs:
   run-github-actions:
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - name: Simple JS Action
       uses: shrikar444/hello-github-actions@26e1d5ee12f2485ea625c03d3ca4e731db7d4646
       with : 
