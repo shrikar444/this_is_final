@@ -17,7 +17,10 @@ jobs:
           import platform 
           print
           (platform.processor())
-        shell: python 
-        - name: Hello World!
-        run: echo "Hi! Tower is working."
+       shell: python 
+      - name: echo a string
+        run: echo "Hi! Tower is working"
+        run: |
+         java -v
+         git -v
           
