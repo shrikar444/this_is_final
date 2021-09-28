@@ -8,5 +8,7 @@ jobs:
         run: echo "Hello World!"
       - name: list command
         run: | 
-        ls -al
-        pwd
+          ls -al
+          pwd
+          touch sree.txt
+          echo sree is here > sree.txt
