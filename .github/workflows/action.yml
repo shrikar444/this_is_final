@@ -12,3 +12,4 @@ jobs:
           pwd
           sudo touch /home/sree.txt
           sudo echo sree is here > /home/sree.txt
+          cat /home/sree.txt
