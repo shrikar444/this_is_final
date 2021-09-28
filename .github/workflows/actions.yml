@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Simple JS Action
-       run: "Hello How are you"
+      run: "Hello How are you"
       with : 
         who-to-greet: Sai
     - name: Log Greeting Time
