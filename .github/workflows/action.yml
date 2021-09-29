@@ -13,3 +13,5 @@ jobs:
           sudo touch /home/sree.txt
           sudo echo sree is here > /home/sree.txt
           cat /home/sree.txt
+      - name: clear 
+        run: its a test of step     
