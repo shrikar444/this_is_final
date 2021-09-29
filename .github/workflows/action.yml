@@ -13,8 +13,6 @@ jobs:
           sudo touch /home/sree.txt
           sudo echo sree is here > /home/sree.txt
           cat /home/sree.txt
-      - name: list command
-        run: |
           lsblk
           df-h 
       - name: End job
