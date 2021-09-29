@@ -13,8 +13,9 @@ jobs:
           sudo touch /home/sree.txt
           sudo echo sree is here > /home/sree.txt
           cat /home/sree.txt
-      - name: freespace
+      - name: list command
         run: |
           lsblk
           df-h 
-          echo  "End of the job" 
+      - name: End job
+        run: echo  "End of the job" 
