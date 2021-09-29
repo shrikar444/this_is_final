@@ -14,9 +14,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Docker commands 
-      run : |
-        docker start
-        docker stop
-        docker build
-        docker pull
+    - name: echo a string 
+      run: echo "Hello this is srikar"
+    - name: mutiple script 
+      run: |  
+          node -v
+          npm -v 
