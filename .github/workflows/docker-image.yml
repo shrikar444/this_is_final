@@ -16,7 +16,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Docker commands 
       run : |
-        docker run
         docker start
         docker stop
         docker build
