@@ -4,6 +4,10 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
+      - name: List files
+        run: |
+           pwd
+           ls
       - name: Test connectivity
         run: echo "Hello Dear!! :)"
       - name: list command
